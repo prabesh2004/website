@@ -1,0 +1,128 @@
+
+.exp__container{
+    height: max-content;
+    position: relative;
+  border: 1px solid var(--color-primary-variant);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 5px 2px var(--color-primary-variant);
+}
+.skillbar{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    position:relative;
+
+}
+.skillbar span{
+    font-size: 1rem;
+    color: var(--color-light);
+    width: 8%;
+}
+.skill{
+    display: flex;
+    gap: 0rem;
+    color: var(--color-primary);
+
+    
+}
+.bar{
+    background: transparent;
+border: 0.1rem solid white;
+    border-radius: 0 1rem 1rem 0 ;
+    height: 1.2rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: end;
+   
+}
+.bars{
+    background-color: #08fc59;
+    width: 90%;
+    height: 100%;
+    border-radius: 0 1rem 1rem 0 ;
+animation: animate 2s ease;
+
+}
+
+
+.thr{
+    width: 80%;
+    animation: animate1 2s ease;
+}
+.for,.fiv{
+    background: #a3fc08;
+    width: 75%;
+    animation: animate2 2s ease;
+
+}
+/* ANIMATION KEY FRAMES */
+@keyframes animate{
+    0%{
+      width: 0%;
+    }
+  
+    100%{
+        width: 90%;
+    }
+}
+@keyframes animate1{
+    0%{
+      width: 0%;
+    }
+  
+    100%{
+        width: 80%;
+    }
+}
+@keyframes animate2{
+    0%{
+      width: 0%;
+    }
+  
+    100%{
+        width: 75%;
+    }
+}
+
+
+/* END OF KEY FRAMES */
+/*-----MEDIA QURIES(Tablates)-----*/
+@media  screen and (max-width:1024px){
+    #exp{
+       position: relative;
+       top: 10vh;
+       
+    }
+    .bar{
+        border-radius: 0 1rem 1rem 0 ;
+        height: 1.2rem;
+        font-size: 0.8rem;
+        margin-left: 1rem;
+    }
+}
+/*-----MEDIA QURIES(phones)-----*/
+@media  screen and (max-width:600px){
+    #exp{
+        padding-top: 10vh;
+    }
+    .exp{
+    position: relative;
+    top: 2rem;
+    }
+    .skillbar span{
+        font-size: 0.8rem;
+        color: var(--color-light);
+        width: 18%;
+    }
+    .bar{
+        border-radius: 0 1rem 1rem 0 ;
+        height: 1.2rem;
+        font-size: 0.8rem;
+      margin-left: 0.5rem;
+    }
+}
