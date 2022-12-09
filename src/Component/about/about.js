@@ -37,7 +37,7 @@ function About() {
       </article>
     </div>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi vero impedit aliquam nemo sint enim dignissimos autem, temporibus accusantium hic iusto aperiam nam repellat maxime earum repudiandae architecto at ea?
+    I'm Prabesh Khanal, a native of Rupandehi, Nepal. I study computers and am a newbie web developer. This is my personal website, where you can find all the information you need about myself, my background, and my most recent projects.
     </p>
     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
   </div>
