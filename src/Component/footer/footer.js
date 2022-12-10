@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
+import {AiFillInstagram} from 'react-icons/ai'
 function Footer() {
   return (
 <footer>
@@ -13,7 +14,9 @@ function Footer() {
     <li><a href="#contact">Contact</a></li>
   </u1>
   <div className="footer_socials">
-    <a href="https://www.facebook.com/prabesh.khanal.7906"><FaFacebookF/></a>
+    <a href="https://www.facebook.com/prabesh.khanal.7906" target="_blank"><FaFacebookF/></a>
+    <a href="https://www.instagram.com/entry069/" target="_blank"><AiFillInstagram/></a>
+
   </div>
   
 </footer>
