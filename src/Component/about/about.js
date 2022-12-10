@@ -33,7 +33,7 @@ function About() {
         <article className='about__card client'>
         <FiUsers className='about__icon'/>
         <h5>Clients</h5>
-        <small>100</small>
+        <small>0(just started)</small>
       </article>
     </div>
     <p>
