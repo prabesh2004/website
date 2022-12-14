@@ -9,6 +9,7 @@ import Portfolio from './Component/portfolio/portfolio'
 import Contact from './Component/contact/contact'
 import Footer from './Component/footer/footer'
 const App = () => {
+ 
   return (
 <>
 <Header/>
