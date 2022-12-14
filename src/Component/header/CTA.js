@@ -16,7 +16,7 @@ function changetheme(){
   return (
     <div className='cta'>
         {/* <a href={CV} className="btn">Download CV</a> */}
-        <button className="btn theme" onClick={()=>{changetheme(active)}}>Change Theme</button>
+        <button className="btn theme" onClick={()=>{changetheme(active)}}>Change-Theme</button>
 
         <a href='#contact' className='btn btn-primary'>Let's Talk</a>
 
