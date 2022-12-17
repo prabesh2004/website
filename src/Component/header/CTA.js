@@ -13,7 +13,7 @@ function CTA() {
         {/* <a href={CV} className="btn">Download CV</a> */}
         <button className="btn theme" >Change-Theme</button>
 
-        <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+        <a href='#contact' className='btn btn-primary'  rel="noopener noreferrer">Let's Talk</a>
 
     </div>
   )

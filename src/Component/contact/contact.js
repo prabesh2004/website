@@ -32,7 +32,7 @@ const sendEmail = (e) => {
         <CgMail className='contact_icon'/>
         <h4>Email</h4>
         <h5>prabeshkhanal623@gmail.com</h5>
-        <a href="mailto:prabeshkhanal623@gmail.com" target="_blank">Send me Message</a>
+        <a href="mailto:prabeshkhanal623@gmail.com" target="_blank"  rel="noopener noreferrer">Send me Message</a>
       </article>
 
 
@@ -40,7 +40,7 @@ const sendEmail = (e) => {
         <AiOutlineMessage className='contact_icon'/>
         <h4>Messanger</h4>
         <h5>Prabesh Khanal</h5>
-        <a href="https://www.facebook.com/prabesh.khanal.7906" target="_blank">Let's Have a Chat
+        <a href="https://www.facebook.com/prabesh.khanal.7906" target="_blank"  rel="noopener noreferrer">Let's Have a Chat
         </a>
       </article>
 
@@ -49,7 +49,7 @@ const sendEmail = (e) => {
       <BsWhatsapp className='contact_icon'/>
         <h4>Whatsapp</h4>
         <h5>+977 9749784669</h5>
-        <a href="https://api.whatsapp.com/send?phone+9779749784669" target="_blank">Send me Message</a>
+        <a href="https://api.whatsapp.com/send?phone+9779749784669" target="_blank"  rel="noopener noreferrer">Send me Message</a>
       </article>
     </div>
     {/* End of contact option  */}

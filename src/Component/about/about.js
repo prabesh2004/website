@@ -39,7 +39,7 @@ function About() {
     <p>
     I'm Prabesh Khanal, a native of Rupandehi, Nepal. I study computers and am a newbie web developer. This is my personal website, where you can find all the information you need about myself, my background, and my most recent projects.
     </p>
-    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+    <a href="#contact" className='btn btn-primary'  rel="noopener noreferrer">Let's Talk</a>
   </div>
   </div>
 </section>  )

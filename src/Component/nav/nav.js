@@ -16,10 +16,10 @@ function Nav() {
  
  <nav>
 <a href="/#" onClick={()=> Activenow("#")}className={Active==='#'?'active':''}><BiHomeHeart/></a>
-  <a href="/#about" onClick={()=> Activenow("#about")} className={Active==='#about'?'active':''}><BiUserCircle/></a>
-  <a href="/#exp"  onClick={()=> Activenow("#exp")}className={Active==='#exp'?'active':''}><BiBookmarkHeart/></a>
-  <a href="/#portfolio"  onClick={()=> Activenow("#pro")}className={Active==='#pro'?'active':''}><AiOutlineProject/></a>
-  <a href="/#contact"  onClick={()=> Activenow("#con")}className={Active==='#con'?'active':''}><BiMessageAdd/></a>
+  <a href="/#about" onClick={()=> Activenow("#about")} className={Active==='#about'?'active':''}  rel="noopener noreferrer"><BiUserCircle/></a>
+  <a href="/#exp"  onClick={()=> Activenow("#exp")}className={Active==='#exp'?'active':''}  rel="noopener noreferrer"><BiBookmarkHeart/></a>
+  <a href="/#portfolio"  onClick={()=> Activenow("#pro")}className={Active==='#pro'?'active':''}  rel="noopener noreferrer"><AiOutlineProject/></a>
+  <a href="/#contact"  onClick={()=> Activenow("#con")}className={Active==='#con'?'active':''}  rel="noopener noreferrer"><BiMessageAdd/></a>
  </nav>
   )
 }
