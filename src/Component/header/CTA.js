@@ -21,7 +21,7 @@ function setcolor(){
 
   return (
     <div className='cta'>
-        <button className="btn theme" onClick={ setcolor} >Change Theme</button>
+        <button className="btn theme" onClick={ setcolor} >Change-Theme</button>
 
         <a href='#contact' className='btn btn-primary'  rel="noopener noreferrer">Let's Talk</a>
 
