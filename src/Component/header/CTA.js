@@ -21,7 +21,6 @@ function setcolor(){
 
   return (
     <div className='cta'>
-        {/* <a href={CV} className="btn">Download CV</a> */}
         <button className="btn theme" onClick={ setcolor} >Change Theme</button>
 
         <a href='#contact' className='btn btn-primary'  rel="noopener noreferrer">Let's Talk</a>

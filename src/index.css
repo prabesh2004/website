@@ -20,11 +20,6 @@
     --container-width-sm:90%;
     --transition:all 400ms ease;
 
-/* 
-    --color-bg1 : #052e1a;
-    --color-bg-variant1 : #6bffa9;
-    --color-primary1 : #bbff4d;
-    --color-primary-variant1 : rgba(77, 255, 157, 0.4); */
 }
 html{
     scroll-behavior: smooth;
