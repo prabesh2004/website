@@ -13,7 +13,7 @@ function setcolor(){
   }else{
     document.documentElement.style.setProperty('--color-primary', "#4db5ff")
     document.documentElement.style.setProperty("--color-primary-variant",'rgba(77,181,255,0.4)  ')
-    document.documentElement.style.setProperty("--color-bg-variant",'#2c2c6c  ')
+    document.documentElement.style.setProperty("--color-bg-variant",'#2c2c6c')
 
   }
   console.log("button clicked")
