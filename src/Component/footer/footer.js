@@ -5,9 +5,8 @@ import {AiFillInstagram} from 'react-icons/ai'
 function Footer() {
   return (
 <footer>
-  <a href="#" className='footer_logo'>Prabesh Khanal</a>
+  <a href="#" className='footer_logo' rel="noopener noreferrer">Prabesh Khanal</a>
   <u1 className="permalinks">
-    <li><a href=""  rel="noopener noreferrer"></a></li>
     <li><a href="#about"  rel="noopener noreferrer">About</a></li>
     <li><a href="#exp"  rel="noopener noreferrer">Experience</a></li>
     <li><a href="#portfolio"  rel="noopener noreferrer">Portfolio</a></li>
