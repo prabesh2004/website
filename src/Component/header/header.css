@@ -58,6 +58,12 @@ header{
 }
 .theme{
     background-color: transparent;
+    
+}
+.theme:hover{
+    background: var(--color-hover);
+    color: var(--color-bg);
+    border-color: transparent;
 }
 /*-----MEDIA QURIES(Tablates)-----*/
 @media  screen and (max-width:1024px){
