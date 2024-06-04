@@ -38,7 +38,7 @@ function Portfolio() {
 
         {/* Second */}
         <article className="portfolio_item">
-          <a href='https://github.com/Prabesh2004/GIT-CHEAT' target="_blank" rel="noreferrer">
+          <a href='https://github.com/prabesh2004/Javascript-Interview-and-advance-concepts.git' target="_blank" rel="noreferrer">
             <div className="hold">
               <div className="portfolio_item-image">
                 <img src={JS} alt="Project" />
@@ -47,7 +47,7 @@ function Portfolio() {
                 <h3 className="h3_prot">JS Advanced</h3>
                 <p className="p_prot">JavaScript advance topics for job interview and learning.
                 <a
-                    href="https://github.com/Prabesh2004/GIT-CHEAT"
+                    href="https://github.com/prabesh2004/Javascript-Interview-and-advance-concepts.git"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
