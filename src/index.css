@@ -88,9 +88,10 @@ transition: var(--transition);
     color: var(--color-bg);
 }
 img{
-    display: block;
+    display:block ;
     width: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 
 /*-----MEDIA QURIES(Tablates)-----*/
