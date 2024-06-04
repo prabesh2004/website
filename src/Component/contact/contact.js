@@ -38,7 +38,7 @@ const sendEmail = (e) => {
 
       <article className="contact_option">
         <AiOutlineMessage className='contact_icon'/>
-        <h4>Messanger</h4>
+        <h4>Messenger</h4>
         <h5>Prabesh Khanal</h5>
         <a href="https://www.facebook.com/prabesh.khanal.7906" target="_blank"  rel="noopener noreferrer">Let's Have a Chat
         </a>
