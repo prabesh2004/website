@@ -7,6 +7,7 @@ import Portfolio from './Component/portfolio/portfolio'
 import Contact from './Component/contact/contact'
 import Footer from './Component/footer/footer'
 import Loader from './Component/Loader/Loader'
+import Achievement from './Component/achievement/achievement'
 const App = () => {
  const[loading,setloading]=useState(false);
  useEffect(()=>{
@@ -23,8 +24,10 @@ const App = () => {
 <Header/>
 <Nav/>
 <About/>
-<Exp/>
+
 <Portfolio/>
+<Exp/>
+<Achievement/>
 <Contact/>
 <Footer/> 
 </div>

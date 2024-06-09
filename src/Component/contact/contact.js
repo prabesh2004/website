@@ -31,8 +31,8 @@ const sendEmail = (e) => {
       <article className="contact_option">
         <CgMail className='contact_icon'/>
         <h4>Email</h4>
-        <h5>prabeshkhanal623@gmail.com</h5>
-        <a href="mailto:prabeshkhanal623@gmail.com" target="_blank"  rel="noopener noreferrer">Send me Message</a>
+        <h5>prabesh037@gmail.com</h5>
+        <a href="mailto:prabesh037@gmail.com" target="_blank"  rel="noopener noreferrer">Send me Message</a>
       </article>
 
 

@@ -5,7 +5,7 @@ import{BiUserCircle} from "react-icons/bi"
 import {BiBookmarkHeart} from "react-icons/bi"
 import {BiMessageAdd} from "react-icons/bi"
 import {AiOutlineProject} from "react-icons/ai"
-
+import { GrAchievement } from "react-icons/gr";
 function Nav() {
   const[Active,Activenow]=useState('#')
 
@@ -17,8 +17,10 @@ function Nav() {
  <nav>
 <a href="/#" onClick={()=> Activenow("#")}className={Active==='#'?'active':''}><BiHomeHeart/></a>
   <a href="/#about" onClick={()=> Activenow("#about")} className={Active==='#about'?'active':''}  rel="noopener noreferrer"><BiUserCircle/></a>
-  <a href="/#exp"  onClick={()=> Activenow("#exp")}className={Active==='#exp'?'active':''}  rel="noopener noreferrer"><BiBookmarkHeart/></a>
   <a href="/#portfolio"  onClick={()=> Activenow("#pro")}className={Active==='#pro'?'active':''}  rel="noopener noreferrer"><AiOutlineProject/></a>
+  <a href="/#exp"  onClick={()=> Activenow("#exp")}className={Active==='#exp'?'active':''}  rel="noopener noreferrer"><BiBookmarkHeart/></a>
+  <a href="/#achievement"  onClick={()=> Activenow("#achievement")}className={Active==='#achievement'?'active':''}  rel="noopener noreferrer"><GrAchievement /></a>
+
   <a href="/#contact"  onClick={()=> Activenow("#con")}className={Active==='#con'?'active':''}  rel="noopener noreferrer"><BiMessageAdd/></a>
  </nav>
   )
