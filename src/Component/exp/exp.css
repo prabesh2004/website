@@ -107,13 +107,8 @@ animation: animate 2s ease;
 }
 /*-----MEDIA QURIES(phones)-----*/
 @media  screen and (max-width:600px){
-    #exp{
-        padding-top: 10vh;
-    }
-    .exp{
-    position: relative;
-    top: 2rem;
-    }
+  
+
     .skillbar span{
         font-size: 0.8rem;
         color: var(--color-light);

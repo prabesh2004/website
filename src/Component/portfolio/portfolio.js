@@ -59,29 +59,7 @@ function Portfolio() {
           </a>
         </article>
 
-        {/* Third */}
-        <article className="portfolio_item">
-          <a href='/' target="_blank" rel="noreferrer">
-            <div className="hold">
-              <div className="portfolio_item-image">
-                <img src={RE} alt="Project" />
-              </div>
-              <div className="information">
-                <h3 className="h3_prot">Webdev</h3>
-                <p className="p_prot">
-                  This website is still in development. 
-                  <a
-                    href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <BsGithub />
-                  </a>
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
+
       </div>
     </section>
   );

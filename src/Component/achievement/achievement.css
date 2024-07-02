@@ -1,12 +1,6 @@
-.portfolio_container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  
+#achievement{
+  height: 40rem;
+}
   .portfolio_item {
     position: relative;
     display: flex;

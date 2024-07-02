@@ -7,7 +7,7 @@ function Social() {
     <div className='header__social'>
       <a href="https://www.facebook.com/prabesh.khanal.7906" target="_blank" rel="noopener noreferrer"><BsFacebook/></a>
         <a href="https://github.com/Prabesh2004" target="_blank"  rel="noopener noreferrer"><BsGithub/></a>
-        <a href="https://www.instagram.com/entry069/" target="_blank"  rel="noopener noreferrer"><BsInstagram/></a>
+        <a href="https://www.instagram.com/prabesh_khanal7/" target="_blank"  rel="noopener noreferrer"><BsInstagram/></a>
     </div>
   )
 }

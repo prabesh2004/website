@@ -2,13 +2,12 @@ import React from 'react'
 import './achievement.css';
 
 import ME from '../../assets/hackathon.jpeg';
-import { BsGithub } from 'react-icons/bs';
 function Achievement() {
   return (
     <section id="achievement">
     <h5>My notable achievements</h5>
     <h2>Achievements</h2>
-    <div className="container portfolio_container">
+    <div className="container">
       {/* First */}
       <article className="portfolio_item achievement">
      
